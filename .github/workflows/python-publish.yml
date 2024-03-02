@@ -26,5 +26,5 @@ jobs:
         with:
           push: true
           file: docker/Dockerfile
-          tags: schwarzw01f/aws-kube-tools:latest
+          tags: schwarzw01f/aws-kube-tools:latest,schwarzw01f/aws-kube-tools:${GITHUB_REF}
           platforms: linux/amd64,linux/arm64
